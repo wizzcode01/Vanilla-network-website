@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanilla App</title>
+     <!-- Bootstrap Local CSS -->
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap-icons/css/bootstrap-icons.css">
+   
+    <link rel="stylesheet" href="assets/css/app.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <!-- Font Awesome CDN (Free version) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-md fixed-top p-4">
+        <div class="container navbar-container">
+            <div class="logo mb-3 d-flex flex-row align-items-center">
+                <a href="#" class="navbar-brand d-flex align-items-center text-light">
+                    <img src="./assets/images/logo-white-small.png" alt="logo img" width="50">
+                    <h2 class=" md-3 text-light mt-2">VANILLA NETWORK</h2>
+                </a>  
+            </div>
+            
+            <!-- TOGGLE BUTTON -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- NAVIGATION MENU -->
+            <div class="collapse navbar-collapse mobile-sidebar" id="navbarNav">
+               <div class="sidebar-header text-center d-flex flex-row align-items-center">
+                        <img src="./assets/images/logo-white-small.png" alt="logo img" width="50">
+                        <h2 class=" md-3 mt-2">VANILLA NETWORK</h2> 
+                </div>
+            
+
+                <ul class="navbar-nav me-3">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Head-to-Head Bets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blockchain Poker</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Staking Pools</a>
+                    </li>
+                </ul>
+                <a href="https://t.me/username" target="_blank" class="btn btn-success custom-btn ">Join Via Telegram</a>
+                <!-- <a href="#" class="btn btn-success custom-btn ">Signup</a> -->
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero d-flex align-items-center py-5 w-100">
+        <div class="container mt-1 d-flex flex-wrap justify-content-between  gap-5 ">
+            <div class="row align-items-center hero-row">
+                <div class="col-md-6 order-2 order-md-1 custom-col mt-1 " data-aos="fade-right">
+                    <h1 class="display-4 fw-bold mb-4 ">Vanilla Network </h1>
+                    <p class="hero-p ">The Vanilla Network is a deflationary token delivering powerful decentralized social game and staking dApps driven by Blockchain technology.</p>
+                        <div class="hero-btn-container">
+                            <input type="submit" class="hero-btn  mt-3" value="Trade on Pancakeswap">
+                            <input type="submit" class="hero-btn  mt-3" value="Head-to-Head bet">
+                        </div>
+                </div>
+                <div class="col-md-6 order-1 order-md-2 text-center image-custom" data-aos="fade-left">
+                   <img src="./assets/images/hero-img.png" alt="hero image" class="img-fluid hero-img" width="200">
+               </div>
+            </div>
+        </div>
+    </section>
+
+   <section class="container-fluid container-learn d-flex flex-column justify-content-center align-items-center">
+       <h4 class="text-center">LEARN MORE ABOUT VANILLA NETWORK</h4>
+       <div class="zoom-on-scroll d-flex justify-content-center align-items-center">
+            <img src="./assets/images/devices-cm.png" class="image-fluid mt-5 learn-img " alt="learn more">
+       </div>
+   </section>
+
+    <div class="container-new ">
+        <div class="news-ticker">
+            <div class="ticker-wrap">
+                <div class="ticker">
+                    <p> <span style="background-color: #da0303e0; color: white;">Exchange Listing</span> VNLA is now live on PancakeSwap and WhiteBit Exchange.</p>  
+                    <p> <span style="background-color: #008000; color: white;">Successful Listing</span> VNLA is now listed on CoinMarketCap and CoinGecko.</p> 
+                    <p> <span style="background-color: #02024d46; color: white;">Successful Listing</span> VNLA is now listed on CoinMarketCap and CoinGecko.</p> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="container-fluid vanilla-network">
+        <div class="container vanilla-heading d-flex flex-column justify-content-center align-items-center">
+            <h3 class="text-center">Vanilla Network</h3>
+            <p class="text-center">The premise of this project lies in the production of award-winning staking
+            and betting decentralized applications (dApps) that appeal to all betting
+            enthusiasts, and those seeking rewards for long-term participation as stakeholders.
+            Through use of Blockchain technology, our aim is to produce the first decentralized 
+            betting and staking platform in which the house no longer wins.
+             All rewards, therefore, are returned to the consumer.</p>
+        </div>
+        
+        <div class="row justify-content-center gap-5 network-row">
+            <div class="col-md-4 col-content" data-aos="fade-up"  data-aos-delay="0">
+                    <div class="col-img d-flex justify-content-center align-items-center">
+                        <img src="./assets/images/head-to-head-bets.png" class="img-fluid network-image text-light" alt="" width="50">
+                    </div>
+                    <div class="col col-body d-flex flex-column justify-content-center align-items-center">
+                        <h5 class="col-title">
+                            Head to head bets
+                        </h5>
+                        <p class="col-text" style="font-size: 13px;">
+                            The Vanilla betting platform allows for holders of the VNLA token to participate 
+                            in Head-to-Head bets against community members, and also facilitates participation
+                             in pool betting scenarios. A user can create an event for a bet to be placed on, 
+                             provided there is an event start time which can be verified by the platform’s admins.
+                        </p>
+                        <a href="#" class="btn text-center" style="color: orange;">Read More</a>
+                    </div>
+            </div>
+               
+            <div class="col-md-4 col-content" data-aos="fade-up"  data-aos-delay="400">
+                    <div class="col-img d-flex justify-content-center align-items-center">
+                        <img src="./assets/images/poker-cards-img.png" class="img-fluid network-image text-light" alt="" width="50">
+                    </div>
+                    <div class="col col-body d-flex  flex-column  justify-content-center align-items-center">
+                        <h5 class="col-title">
+                            poker
+                        </h5>
+                        <p class="col-text" style="font-size: 13px;">
+                          If you are a fan of crypto assets and Texas hold ‘em poker, 
+                          then the Vanilla poker platform is the place for you! With no rake,
+                           and no requirement for the use of USD or other fiat currency, our 
+                           Blockchain poker fits the bill for all poker and crypto enthusiasts as 
+                           it is all decentralized!
+                        </p>
+                        <a href="#" class="btn text-center" style="color: orange;">Read More</a>
+                    </div>
+            </div>
+            
+          <div class="col-md-4 col-content" data-aos="fade-up"  data-aos-delay="800">
+                    <div class="col-img d-flex justify-content-center align-items-center">
+                        <img src="./assets/images/casino-games-img.png" class="img-fluid network-image text-light" alt="" width="50">
+                    </div>
+                    <div class="col col-body  flex-column  d-flex justify-content-center align-items-center">
+                        <h5 class="col-title">
+                            Casino Games
+                        </h5>
+                        <p class="col-text" style="font-size: 13px;">
+                          Many 3D Casino games will become available in partnering metaverses.
+                           Including Blackjack, also known as 21 in some parts of the world,
+                            is a casino card game in which the player's objective is to beat 
+                            the dealer’s hand by getting a total hand value of 21 or closer to
+                             21 than the dealer's hand without going over 21.
+                        </p>
+                        <a href="#" class="btn text-center" style="color: orange;">Read More</a>
+                    </div>
+            </div>
+        </div> 
+        <img src="./assets/images/vanilla-network-bg (1).svg" alt="" class="curve-bg"  >   
+    </section>  
+      
+    
+   
+    <section class="container-fluid py-5 bg-white coming-soon ">
+        <div class="container">
+            <h2 class="header text-center mb-2">Coming Up Next</h2> 
+            <div class=" casino-row d-flex justify-content-center align-items-center">
+                <div class="casino-image text-center mb-4 mb-md-0 mt-3">
+                    <img src="./assets/images/bet-dice-coming-soon.jpg" alt="" class="img-fluid" style="width: 100%;  display: block;   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);">
+                </div>
+                <div class="casino-games ">
+                    <h3 class="fw-bold mb-2">Casino games</h3>
+                    <p class="text-secondary mb-3" style="line-height: 1.6;">
+                        If you are a fan of crypto assets and Texas hold ‘em poker,
+                        then the Vanilla poker platform is the place for you! With
+                        no rake, and no requirement for the use of USD or other fiat
+                        currency, our Blockchain poker fits the bill for all poker and
+                        crypto enthusiasts as it is all decentralized!
+                    </p>
+                    <input type="submit" class="btn btn-success  px-4 py-2" value="coming-soon" style="max-width: 180px; width: 100%;">
+                </div>
+            </div>  
+        </div>
+    </section>
+
+    <section class="about-section d-flex justify-content-center">
+        <div class="container about-container">
+            <h2 class="text-center mb-5" >About Vanilla</h2>
+            <div class="about-row g-4">
+                <!-- Card 1  -->
+                    <div class="card about-card h-100 text-center text-md-start p-3 shadow-sm abt-col" data-aos="fade-right">
+                        <img src="./assets/images/about-vanilla.png" class="card-img-top  d-block" alt="About Vanilla" style="width: 100px;">
+                        <div class="card-body">
+                        <h5 class="card-title fw-bold">About Vanilla</h5>
+                        <p class="card-text">The Vanilla Network was created for the investor and betting enthusiast in all of us. The Vanilla token itself is a deflationary source of value with...</p>
+                        <a href="#" class="btn btn-outline" style="background-color: orange; color: white;">Read more</a>
+                        </div>
+                    </div>
+
+                <!-- Card 2 -->
+                    <div class="card about-card h-100 text-center text-md-start p-3 shadow-sm abt-col" style="margin-top: 2rem;"  data-aos="fade-up">
+                        <img src="./assets/images/team-members.png" class="card-img-top  d-block" alt="Team Members" style="width: 100px;">
+                        <div class="card-body">
+                        <h5 class="card-title fw-bold">Team Members</h5>
+                        <p class="card-text">Behind Vanilla Network is a motivated team that have a goal to succeed with the support of the community. Meet our team members.</p>
+                        <a href="#" class="btn btn-outline" style="background-color: orange; color: white;">Read more</a>
+                        </div>
+                    </div>
+
+                <!-- Card 3 -->
+                    <div class="card about-card h-100 text-center text-md-start p-3 shadow-sm abt-col" data-aos="fade-left">
+                        <img src="./assets/images/roadmap.svg" class="card-img-top  d-block" alt="Roadmap" style="width: 100px;">
+                        <div class="card-body">
+                        <h5 class="card-title fw-bold">Roadmap</h5>
+                        <p class="card-text">We are consistently working on our road to success. We have currently accomplished eight of our nine stages, and there is more to come in 2021.</p>
+                        <a href="#" class="btn btn-outline" style="background-color: orange; color: white;">Read more</a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>   
+    
+
+   <section class="container-fluid features-container py-5">
+      <div class="container-fluid">
+        <h2 class="text-light text-center">Vanilla Features</h2>
+        <div class="row justify-content-center gap-5 features-row">
+            <div class="col-md-4 features-col"  data-aos="fade-up" data-aos-delay="0" >
+                    <div class="col-img d-flex justify-content-center align-items-center">
+                        <img src="./assets/images/Scalability.svg" class="img-fluid features-img text-light" alt="" width="50">
+                    </div>
+                    <div class="col features-body d-flex flex-column justify-content-center align-items-center">
+                        <h5 class="col-title">
+                            Scalability
+                        </h5>
+                        <p class="col-text" style="font-size: 16px;">
+                           Designed for cross-chain technology allowing for high speed
+                            and low cost transactions, a breakthrough in Blockchain technology.
+                        </p>
+                    </div>
+            </div>
+               
+            <div class="col-md-4 features-col"  data-aos="fade-up" data-aos-delay="400">
+                    <div class="col-img d-flex justify-content-center align-items-center">
+                        <img src="./assets/images/User-Experience.svg" class="img-fluid features-img text-light" alt="" width="50">
+                    </div>
+                    <div class="col features-body d-flex  flex-column  justify-content-center align-items-center">
+                        <h5 class="features-title">
+                            User Experience
+                        </h5>
+                        <p class="col-text" style="font-size: 16px;">
+                          Protocols designed for user adoption and ease of use; despite processes being built
+                          on high tech architecture and a complicated framework.
+                        </p>
+                    </div>
+            </div>
+            
+            <div class="col-md-4 features-col "  data-aos="fade-up" data-aos-delay="800">
+                    <div class="col-img d-flex justify-content-center align-items-center">
+                        <img src="./assets/images/security.svg" class="img-fluid features-img text-light" alt="" width="50">
+                    </div>
+                    <div class="col features-body  flex-column  d-flex justify-content-center align-items-center">
+                        <h5 class="col-title">
+                           Security
+                        </h5>
+                        <p class="col-text" style="font-size: 16px;">
+                           All protocols are built on-chain and therefore remain immutable on the blockchain.
+                            All smart contracts audited by renowned blockchain professionals.
+                        </p>
+                    </div>
+             </div>
+        </div>  
+
+        <div class="row justify-content-center gap-5 features-row">
+            <div class="col-md-4 features-col"  data-aos="fade-up" data-aos-delay="0">
+                    <div class="col-img d-flex justify-content-center align-items-center">
+                        <img src="./assets/images/all-in-one.svg" class="img-fluid features-img text-light" alt="" width="50">
+                    </div>
+                    <div class="col features-body d-flex flex-column justify-content-center align-items-center">
+                        <h5 class="col-title">
+                           All-In-One Defi Platform
+                        </h5>
+                        <p class="col-text" style="font-size: 16px;">
+                            Fully decentralized platforms provide for the cornerstone of our product offerings.
+                             No brokerage fee with all rewards from our games returned to consumers within the
+                              ecosystem.
+                        </p>
+                       
+                    </div>
+            </div>
+               
+            <div class="col-md-4 features-col"  data-aos="fade-up" data-aos-delay="400">
+                    <div class="col-img d-flex justify-content-center align-items-center">
+                        <img src="./assets/images/multiple-platforms.svg" class="img-fluid features-img text-light" alt="" width="50">
+                    </div>
+                    <div class="col features-body d-flex  flex-column  justify-content-center align-items-center">
+                        <h5 class="col-title">
+                            Multiple Platforms
+                        </h5>
+                        <p class="col-text" style="font-size: 16px;">
+                           Bespoke Multilayer platforms, permitting wide-ranging consumer choice.
+                        </p>
+                       
+                    </div>
+            </div>
+            
+            <div class="col-md-4 features-col "  >
+                    <div class="col-img d-flex justify-content-center align-items-center"   data-aos="fade-up" data-aos-delay="800">
+                        <img src="./assets/images/responsive-support-team.svg" class="img-fluid features-img text-light" alt="" width="50">
+                    </div>
+                    <div class="col features-body  flex-column  d-flex justify-content-center align-items-center">
+                        <h5 class="col-title">
+                            Responsive Support Team
+                        </h5>
+                        <p class="col-text" style="font-size: 16px;">
+                            On demand team providing instant responses to user queries. 
+                            Priority ticketing system implemented within all admin panels
+                             across all games to aid user experience.
+                        </p>
+                    </div>
+             </div>
+        </div>  
+    </section>
+      <img src="./assets/images/vanilla-features-bg.svg" alt="" class="curve2-bg">
+      <div class="container-fluid py-5 ">
+        <div class="container news-updates">
+            <h3 class="text-center">News Updates</h3>
+            <button class="btn new-btn" style="background-color: rgb(85, 55, 1); color: white; border: 2px solid black; width: 40%; ">Read More</button>
+        </div>
+      </div>
+    <div class="container-fluid subscribe-container py-5">
+            <div class="container subscribe-form">
+                <h6 class="text-center">Subscribe to stay updated on the project progress</h6>
+                <form action="">
+                    <input type="text">
+                    <button type="submit">Join today</button>
+                </form>
+                <p>
+                    * By submitting this form you are agreeing to receive communications
+                        from Vanilla Network. To see how we use your information please see our <span style="color: rgb(235, 153, 2);">privacy policy</span> 
+                </p>
+            </div>
+       
+      <footer class="footer vanilla-footer bg-dark  text-light pt-5 pb-4" style="padding: 2rem; margin-top: 4rem;">
+        <div class="footer-container" style="width: 100;">
+            <div class="row row-cols-4 footer-rows">
+                <!-- school info -->
+                <div class="col footer-col mb-4 d-flex flex-column justify-content-center">
+                    <img src="./assets/images/logo-white-small.png" alt="" width="70">
+                    <p>The Vanilla Network is a 
+                        deflationary BEP-20 token with 
+                        decentralized finance driven by Blockchain technology.
+                    </p>
+                    <h6 class="mb-2">View DISCLAIMER</h6>
+                </div>
+
+                <!-- Quicks links -->
+                <div class="col footer-col mb-5 d-flex flex-column justify-content-center">
+                    <h4 class="text-uppercase mb-3">Ecosystem</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light text-decoration-none">Home</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Head-to-Head Bets</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Blockchain Poker</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Staking Pools</a></li>
+                    </ul>
+                </div>
+
+                  <!-- Quicks links -->
+                <div class="col footer-col d-flex flex-column justify-content-center">
+                    <h4 class="text-uppercase mb-3">General</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light text-decoration-none" style="color: rgb(230, 150, 1);">Audit Reports</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Whitepaper</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">About Us</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Road Map</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Blog</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <!-- contact and social links -->
+                <div class="col footer-col mb-4 d-flex flex-column justify-content-center">
+                    <h5 class="text-uppercase mb-3">Connect With Us</h5>
+                    <div class="social-icons mt-3">
+                        <a href="#" class="text-light fs-4 me-3"><i class="fab fa-facebook-f" ></i></a>
+                        <a href="#" class="text-light fs-4 me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-light fs-4 me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-light fs-4"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <p>All marketing & partnership inquiries should be sent to</p>
+                     <a href="#" style="color: rgb(230, 150, 1); cursor: pointer;">business@vanilla.network</a>
+                </div>
+            </div>
+        </div>
+       </footer>
+            <div class="text-center text-light">
+                <p class="text-center mb-0" style="margin-top: 3rem;">&copy; 2025 Vanilla Network. All Rights Reserved</p>
+            </div>
+        </div>
+       <!-- AOS JS -->
+    <script src="assets/bootstrap/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200, 
+            once: false    
+        });
+    </script>
+</body>
+</html>
