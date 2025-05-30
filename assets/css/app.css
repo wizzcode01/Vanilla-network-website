@@ -753,9 +753,7 @@ body{
 }
 
  @media (min-width: 768px) {
-    *{
-      
-    }
+
     .navbar-collapse .sidebar-header {
     display: none !important;
   }
