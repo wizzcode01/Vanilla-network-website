@@ -805,7 +805,7 @@ body{
    
 }
 /* Fixes for very small screens */
-@media (max-width: 350px) {
+@media (min-width: 300px) and (max-width: 350px) {
     body, html{
         overflow-x: hidden;
         overflow-y: auto;
