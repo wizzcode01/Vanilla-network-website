@@ -805,7 +805,11 @@ body{
    
 }
 /* Fixes for very small screens */
+<<<<<<< HEAD
 @media (max-width: 320px) {
+=======
+@media (min-width: 300px) and (max-width: 350px) {
+>>>>>>> ef953935b10ee8db87f44584a4ab4d099c2d33ee
     body, html{
         overflow-x: hidden;
         overflow-y: auto;
