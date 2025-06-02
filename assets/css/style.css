@@ -805,23 +805,20 @@ body{
    
 }
 /* Fixes for very small screens */
-<<<<<<< HEAD
-@media (max-width: 320px) {
-=======
-@media (min-width: 300px) and (max-width: 350px) {
->>>>>>> ef953935b10ee8db87f44584a4ab4d099c2d33ee
+@media (min-width: 300px) and (max-width: 360px) {
     body, html{
         overflow-x: hidden;
         overflow-y: auto;
+
     }
   .navbar-container {
     flex-wrap: nowrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 0 0.5rem;
   }
   .logo img {
-    width: 36px !important;
+    width: 40px !important;
   }
   .logo h2 {
     font-size: 1rem !important;
